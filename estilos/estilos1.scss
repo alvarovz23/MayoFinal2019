@@ -1,0 +1,41 @@
+.contenedorgrid{
+    display:grid;
+    grid-template-columns: 70vw 30vw;
+    
+    header{
+        grid-column: 1/3;
+        min-height: 20vh;
+        .cabecera_arriba{
+            min-height: 5vh;
+            background-color: lightseagreen;
+            display: grid;
+            grid-template-columns: 70vw 30vw;
+            .izquierda{
+                grid-column: 1 / 2;
+                display: flex;
+            >.elementomenu{
+                margin: 10px;
+                color: white;
+                padding: 5px;
+            }
+        }
+            .derecha {               
+                grid-column: 2 / 3;
+                display: flex;
+                justify-content: flex-end;
+                >.elementomenu{
+                    
+                    margin: 10px;
+                    color: white;
+                    padding: 5px;
+                }
+            }
+
+        }
+        .cabecera_abajo{
+            min-height: 15vh;
+            background-color: lightgray;
+        }
+    }
+}
+ 

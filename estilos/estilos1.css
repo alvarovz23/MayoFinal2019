@@ -1,0 +1,39 @@
+.contenedorgrid {
+  display: grid;
+  grid-template-columns: 70vw 30vw;
+}
+.contenedorgrid header {
+  grid-column: 1/3;
+  min-height: 20vh;
+}
+.contenedorgrid header .cabecera_arriba {
+  min-height: 5vh;
+  background-color: lightseagreen;
+  display: grid;
+  grid-template-columns: 70vw 30vw;
+}
+.contenedorgrid header .cabecera_arriba .izquierda {
+  grid-column: 1/2;
+  display: flex;
+}
+.contenedorgrid header .cabecera_arriba .izquierda > .elementomenu {
+  margin: 10px;
+  color: white;
+  padding: 5px;
+}
+.contenedorgrid header .cabecera_arriba .derecha {
+  grid-column: 2/3;
+  display: flex;
+  justify-content: flex-end;
+}
+.contenedorgrid header .cabecera_arriba .derecha > .elementomenu {
+  margin: 10px;
+  color: white;
+  padding: 5px;
+}
+.contenedorgrid header .cabecera_abajo {
+  min-height: 15vh;
+  background-color: lightgray;
+}
+
+/*# sourceMappingURL=estilos1.css.map */
