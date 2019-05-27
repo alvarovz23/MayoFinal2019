@@ -35,5 +35,10 @@
   min-height: 15vh;
   background-color: lightgray;
 }
+.contenedorgrid main {
+  border: dashed black 1px;
+  min-height: 70vh;
+  grid-column: 1/2;
+}
 
 /*# sourceMappingURL=estilos1.css.map */
