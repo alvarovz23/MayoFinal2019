@@ -55,5 +55,17 @@
     grid-column: 1/3;
   }
 }
+.contenedorgrid .imagen1 {
+  object-fit: scale-down;
+  border: 1px solid green;
+  width: 100%;
+  height: 100%;
+}
+.contenedorgrid .imagen2 {
+  object-fit: scale-down;
+  border: 1px solid green;
+  width: 100%;
+  height: 100%;
+}
 
 /*# sourceMappingURL=estilos1.css.map */
