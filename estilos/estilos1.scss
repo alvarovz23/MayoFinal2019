@@ -47,5 +47,10 @@
         min-height: 70vh;
         grid-column: 2 / 3;
     }
+    footer {
+        background-color: purple;
+        min-height: 10vh;
+        grid-column: 1/3;
+    }
 }
  
